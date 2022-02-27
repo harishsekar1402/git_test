@@ -1,0 +1,66 @@
+
+body{
+    background: black;
+
+}
+.hero{
+    width: 75%;
+    height: 150px;
+    overflow: hidden;
+}
+.hero img{
+    width:50%;
+    height: 150%;
+    padding-left: 40%;
+}
+.main{
+    width: 100%;
+    height: auto;
+    font: 500 26px/1 RobotoCondensed Bold,Trebuchet MS,Helvetica,Arial,sans-serif;
+    color: white;
+    background-image: url(images.jpg);
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position: right 20%;
+}
+p{
+    font-size: xx-large;
+    line-height: 1.6em;
+}
+.bottom{
+    width: 100%;
+    height: 250px;
+    text-align: end;
+    font-size: xx-large;
+    font: 500 26px/1 RobotoCondensed Bold,Trebuchet MS,Helvetica,Arial,sans-serif;;
+    color: white;
+    line-height: 1.6em;
+    background-image: url(troh.png);
+    background-size: 30%;
+    background-repeat: no-repeat;
+}
+.last{
+    height: 180px;
+    max-width: auto;
+    margin: 0;
+    color: white;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 3rem;
+    background : rgb(31, 30, 30);
+}
+.last li{
+    line-height: 2.4em;
+}
+.last a{
+    color:white;
+    font-size: 20px;
+}
+a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: Roboto,Trebuchet MS,Helvetica,Arial,sans-serif;;
+}
+ul{
+    list-style: none;
+}
